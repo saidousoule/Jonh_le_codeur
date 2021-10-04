@@ -61,7 +61,10 @@ a
     color: #ff7a00;
 }
 
-
+.clear
+{
+    clear: both;
+}
 
 /* HEADER */
 
@@ -174,3 +177,4 @@ margin-bottom: 20px;
 {
     background: url("images/steps-icon-3.png") no-repeat top center;
 }
+
