@@ -19,9 +19,62 @@ h1
     color: #444;
 }
 
+ul
+{
+    list-style: none;
+}
 
+a
+{
+    text-decoration: none;
+    color: #444;
+}
 
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.orange
+{
+    color: #ff7a00;
+}
 
 
 
 /* HEADER */
+
+header
+{
+    height: 120px;
+}
+
+header h1
+{
+    float: left;
+    margin-top: 32px;
+}
+
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+
+
+/*aligener la liste a puce de la nav bare*/
+header nav ul li 
+{
+    display: inline-block;
+}
+
+
+/*majuscule sur les menus de la nav bar*/
+header nav ul li a 
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}

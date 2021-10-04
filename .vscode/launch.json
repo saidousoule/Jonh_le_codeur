@@ -8,14 +8,14 @@
             "name": "Launch Chrome",
             "request": "launch",
             "type": "pwa-chrome",
-            "url": "http://localhost:8080",
+            "url": "file:///D:/c/projet/openclassroom/exercice_programmation/projet_john_le_codeur/index.html",
             "webRoot": "${workspaceFolder}"
         },
         {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "url": "file:///D:/c/projet/openclassroom/exercice_programmation/projet_john_le_codeur/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
